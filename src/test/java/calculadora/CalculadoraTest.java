@@ -15,7 +15,7 @@ public class CalculadoraTest {
     @Test
     public void subtrair() {
         Calculadora calculadora = new Calculadora();
-        double result = calculadora.subtrair(1.2,2.3);
-        assertEquals(3.5,result,0);
+        double result = calculadora.subtrair(5.8,4.7);
+        assertEquals(1.1,result,0);
     }
 }
