@@ -11,4 +11,11 @@ public class CalculadoraTest {
         double result = calculadora.somar(1.2,2.3);
         assertEquals(3.5,result,0);
     }
+
+    @Test
+    public void subtrair() {
+        Calculadora calculadora = new Calculadora();
+        double result = calculadora.subtrair(1.2,2.3);
+        assertEquals(3.5,result,0);
+    }
 }
